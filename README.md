@@ -6,7 +6,7 @@ Ein einfacher Einkaufswagen, implementiert mit React Function Components.
 
 Das folgende Tutorial ["Einkaufswagen mit React"](https://www.youtube.com/watch?v=qJqjcxLvEwg) ist in Class Components aufgebaut. Mein Versuch wurde in Function Components ausgeführt.
 
-Bei zusätzlichen Features erlaubte ich mir LLMs zur Hilfe zu holen, da ich zum ersten Mal mit React in Berührung komme. Ab nächsten Projekt geht es ohne jegliche AI.
+Bei zusätzlichen Features erlaubte ich mir LLMs zur Hilfe zu holen, da ich zum ersten Mal mit React in Berührung komme. 
 
 ## 🚀 Aktuelle Features
 
