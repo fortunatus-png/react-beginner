@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Product from "./Product";
 import ShoppingCart from './ShoppingCart';
 
-export default function Fruit() {
+export default function Vegetable() {
     const [items, setItems] = useState([]);
 
     const addItem = (amount, name, price) => {
@@ -41,9 +41,9 @@ export default function Fruit() {
         <>
             <div className='main-container'>
                 <div className='product-container'>
-                    <Product onAdd={() => addItem(1, 'Äpfel', 3.69)} onDel={() => delItem('Äpfel')} source="/img/apples.jpg" title="Äpfel" description="Zum Warekorb hinzufügen" />
-                    <Product onAdd={() => addItem(1, 'Birnen', 4.11)} onDel={() => delItem('Birnen')} source="/img/pears.jpg" title="Birnen" description="Zum Warekorb hinzufügen" />
-                    <Product onAdd={() => addItem(1, 'Orangen', 4.11)} onDel={() => delItem('Orangen')} source="/img/oranges.jpg" title="Orangen" description="Zum Warekorb hinzufügen" />
+                    <Product onAdd={() => addItem(1, 'Tomaten', 3.69)} onDel={() => delItem('Tomaten')} source="/img/tomatoes.jpg" title="Tomaten" description="Zum Warekorb hinzufügen" />
+                    <Product onAdd={() => addItem(1, 'Gurken', 4.11)} onDel={() => delItem('Gurken')} source="/img/cucumbers.jpg" title="Gurken" description="Zum Warekorb hinzufügen" />
+                    <Product onAdd={() => addItem(1, 'Karotten', 4.11)} onDel={() => delItem('Karotten')} source="/img/carrots.jpg" title="Karotten" description="Zum Warekorb hinzufügen" />
                 </div>
                 <ShoppingCart items={items} />
             </div>
